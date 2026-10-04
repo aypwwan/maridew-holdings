@@ -55,7 +55,7 @@ h3 { font-size: 1.15rem; }
   position: fixed;
   inset: 0 0 auto 0;
   z-index: 60;
-  padding: 14px 0;
+  padding: 8px 0;
   transition: background 0.3s ease, box-shadow 0.3s ease, padding 0.3s ease;
 }
 .site-header.is-stuck {
@@ -66,16 +66,13 @@ h3 { font-size: 1.15rem; }
 }
 .header-inner { display: flex; align-items: center; justify-content: space-between; gap: 20px; }
 
-.brand { display: flex; align-items: center; gap: 12px; }
-.brand-mark {
-  height: 40px;              /* symbol artwork: 495x354 native ratio */
+.brand { display: flex; align-items: center; }
+.brand-logo {
+  height: 68px;              /* official stacked lockup: symbol + MARIDEW wordmark + tagline */
   width: auto;
   object-fit: contain;
   display: block;
 }
-.brand-text { display: flex; flex-direction: column; line-height: 1.1; }
-.brand-text strong { font-family: var(--font-display); font-size: 1.15rem; color: var(--navy); }
-.brand-text small { font-size: 0.62rem; letter-spacing: 0.24em; color: var(--muted); }
 
 .main-nav { display: flex; align-items: center; gap: 26px; }
 .main-nav a { font-size: 0.92rem; font-weight: 500; color: var(--ink); position: relative; }
